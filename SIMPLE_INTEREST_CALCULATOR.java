@@ -39,6 +39,8 @@ public class java {
        interest = (principle * rate * 13)/100;
        time = 13;
        break;
+       default:
+       System.out.println("Invalid Entry");
      }
 
      System.out.println("********************SIMPLE INTEREST CALCULATOR**********************");
@@ -51,5 +53,3 @@ public class java {
 
      }
      }
-    
-  
